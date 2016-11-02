@@ -145,7 +145,6 @@ h1, h5{
     position: absolute;
     top: 0;
     left: 0;
-    background: #d2079f;
     height: 50px;
     width: 100%;
     z-index: 3;
@@ -190,7 +189,7 @@ h1, h5{
 
 .box-logo {
     display: block;
-    padding: 20px;
+    padding: 24px;
     background: #ff5858;
 }
 
@@ -417,7 +416,7 @@ b i:last-child {
 /* hero
 ==================================================*/
 .hero {
-  height: 633px;
+  height: 662px;
   background: url(../img/portada-inicio.jpg);
   background-size: cover;
   background-position: center;
@@ -665,6 +664,7 @@ b i:last-child {
     background-position: center center;
     text-align: center;
     background-color: black;
+    height: 662px;
 }
 
 .top-bar h1 {
@@ -710,9 +710,6 @@ b i:last-child {
 .about-myself h1 {
   color: #d2079f;
   font-size: 3em;
-  -webkit-transform: translateY(-50px) scale(0);
-  transform: translateY(-50px) scale(0);
-  -webkit-transition: transform .7s;
   -moz-transition: transform .7s;
   transition: transform .7s;
 }
@@ -739,7 +736,7 @@ b i:last-child {
 
 .bajar {
     font-size: 50px;
-    color: white;
+    color: #ff5858;
     -webkit-transition: all .3s;
     transition: all .3s;
 }
@@ -750,11 +747,10 @@ b i:last-child {
 
 /*##### SKILLS SECTION #####*/
 .skills {
-  padding: 80px 20px 0 0;
-  background-color: black;
-}
+  padding: 35px 20px 10px 0;
+  }
 .skills .content .development-wrapper .development-title {
-  color: white;
+  color: black;
   font-size: 2em;
   text-align: center;
   margin-bottom: 20px;
@@ -829,9 +825,6 @@ b i:last-child {
 .card {
   position: relative;
   color: #4E6868;
-  border-radius: 6px;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   text-align: center;
   height: 100%;
 }
@@ -842,8 +835,6 @@ b i:last-child {
 }
 
 .avatar{
-  background-color: white;
-  border-radius: 5%;
   margin: 0 auto;
 }
 
@@ -868,7 +859,7 @@ b i:last-child {
   position: relative;
 }
 .card .stats {
-  margin: 40px;
+  margin: 30px;
   padding: 15px;
   position: relative;
 }
@@ -893,7 +884,6 @@ b i:last-child {
 .card .star-candy {
   margin: 40px 0 60px;
   height: 100px;
-  background-color: white;
 }
 .card .star-candy .starcandy {
   width: 50%;
@@ -1043,6 +1033,11 @@ b i:last-child {
 
 /* contact page
 ==================================================*/
+.top-barcontact {
+    color: black;
+    text-align: center;
+    height: 397px;
+}
 
 .box-intro h5 {
     letter-spacing: 4px;
@@ -1075,7 +1070,6 @@ b i:last-child {
 
 .contact-info div {
     display: inline-block;
-    margin-right: 20px;
 }
 
 .btn-box {
@@ -1096,7 +1090,7 @@ b i:last-child {
 }
 
 .contac-hero {
-  height: 633px;
+  height: 662px;
   background: url(../img/1.jpg);
   background-size: cover;
   background-position: center;
@@ -1142,6 +1136,11 @@ b i:last-child {
     .box-primary-nav .box-social a {
         font-size: 23px;
     }
+
+    .top-bar {
+        height: 1000px;
+    }
+
     .top-bar h1 {
         font-size: 40px;
         line-height: 30px;
@@ -1153,13 +1152,14 @@ b i:last-child {
     max-width: 100% !important;
     }
     .card .star-candy {
-    margin: 90px 0 170px;
+    margin: 90px 0 30px;
     margin-left: 2%;
     }
 
     .contact-info {
-    margin: 50px;
+    margin-top: 120px;
     }
+
    .box-headline {
         font-size: 80px;
     }
@@ -1170,13 +1170,30 @@ b i:last-child {
         padding: 50px 0;
     }
 
+    .contac-hero {
+        height: 340px;
+    }
 
+    .hero {
+        height: 635px;
+    }
+
+    .skills {
+    padding: 0 20px 10px 0;
+    }
+    .about-myself {
+    padding: 0 20px 30px;
+    }
+
+    .avatar img {
+        width: 50%;
+        margin: 0 27%;
+        position: relative;
+    }
 }
 
 @media screen and (min-width: 640px) {
-  .about-myself {
-    padding: 100px 40px;
-  }
+  
 
 
 @media only screen and (max-width: 520px) {
